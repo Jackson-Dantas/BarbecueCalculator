@@ -1,8 +1,15 @@
+@font-face {
+    font-family: 'Myfont';
+    src: url('./Sevillana/Sevillana-Regular.ttf') format('truetype');
+   
+}
+
 body {
     margin: 0;
     padding: 0;
     text-decoration: none;
     background-color: hsla(22, 95%, 45%, 0.623);
+    font-family: 'Myfont';
 }
 
 
@@ -19,7 +26,8 @@ body {
 }
 
 #result{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 950;
     font-size: 14px;
     font-weight: bold;
     color: hsla(180, 2%, 12%, 0.788);
